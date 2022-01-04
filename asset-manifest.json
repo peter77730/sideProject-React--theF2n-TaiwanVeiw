@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sideProject-React--theF2n-TaiwanVeiw/static/css/main.35c5920f.css",
+    "main.js": "/sideProject-React--theF2n-TaiwanVeiw/static/js/main.0b1b33e5.js",
+    "static/media/nopic.jpg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/nopic.1c6809f88773a17a37cd.jpg",
+    "static/media/Instagram.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/Instagram.a0c181399b8299506e2b715c88c5374a.svg",
+    "static/media/line.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/line.72aab2e79b28553ffd25195369b110fb.svg",
+    "static/media/sun.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/sun.e8e160040a81cff9c9feb6da4e4139b3.svg",
+    "static/media/whiteTaiwan.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/whiteTaiwan.9ffc7ac372b80950f23e90855c19e25a.svg",
+    "static/media/iconbluebig.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/iconbluebig.c655b8d23b45fb7201ac0c7779b5c97e.svg",
+    "static/media/facebook.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/facebook.982b945b59a8b7844a7d691f3e3d4861.svg",
+    "static/media/global.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/global.ebdb4f114822e3107c6333d6f888b021.svg",
+    "static/media/moon.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/moon.044367241665ea18409ff63217c89fdd.svg",
+    "static/media/copyright.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/copyright.7bf4103703429c38c500baed47b46227.svg",
+    "index.html": "/sideProject-React--theF2n-TaiwanVeiw/index.html",
+    "static/media/navbar.svg": "/sideProject-React--theF2n-TaiwanVeiw/static/media/navbar.e1b69e2839cce5b8d40366f0ee5cccc2.svg",
+    "main.35c5920f.css.map": "/sideProject-React--theF2n-TaiwanVeiw/static/css/main.35c5920f.css.map",
+    "main.0b1b33e5.js.map": "/sideProject-React--theF2n-TaiwanVeiw/static/js/main.0b1b33e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35c5920f.css",
+    "static/js/main.0b1b33e5.js"
+  ]
+}
