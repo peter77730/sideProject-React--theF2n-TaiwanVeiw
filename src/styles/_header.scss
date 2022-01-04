@@ -1,0 +1,184 @@
+body {
+  background-color: $lightBgColor;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.1%;
+    padding-left: 50px;
+    @include pad {
+      width: 30%;
+    }
+    @include padToPhone {
+      width: 31%;
+    }
+    @include phone {
+      padding-left: 20px;
+    }
+    img {
+      width: 26px;
+      height: 50px;
+    }
+    ul {
+      flex-direction: column;
+      .TaiwanE {
+        font-size: 9px;
+        font-family: $fontE;
+        color: $darkPrimaryColor;
+        padding-left: 11px;
+        line-height: 12px;
+      }
+      .TaiwanC {
+        font-size: 20px;
+        font-family: $fontC;
+        color: $lightPrimaryColor;
+        padding-left: 10px;
+        line-height: 29px;
+      }
+    }
+  }
+
+  .travalGo{
+    display: flex;
+    width: 15%;
+    padding: 0 5px;
+    margin: 0 10px;
+    @include pad {
+      display: none;
+    }
+    a {
+      font-family: $fontC;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: $lightPrimaryColor;
+    }
+  }
+
+  .foodGo {
+    display: flex;
+    width: 15%;
+    padding: 0 5px;
+    margin: 0 10px;
+    @include pad {
+      display: none;
+    }
+    a {
+      font-family: $fontC;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: $lightPrimaryColor;
+    }
+  }
+
+
+  .dayControl {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include pad {
+      display: none;
+      overflow: hidden;
+    }
+    img {
+      padding-left: 8px;
+      padding-right: 11px;
+    }
+    .control {
+      min-width: 39px;
+      height: 21px;
+      border-radius: 20px;
+      border: 1px solid $darkPrimaryColor;
+      background-color: $darkPrimaryColor;
+      overflow: hidden;
+      position: relative;
+      .circle {
+          .changeLight{
+            min-width: 15px;
+            height: 15px;
+            margin: 2px 2px;
+            position: absolute;
+            left: 0;
+            cursor: pointer;
+            background-color: $mapBgColor;
+            border: 1px solid $mapBgColor;
+            border-radius: 50%;
+            transition: 0.3s ease-in-out;
+          }
+          .changeNightC{
+            min-width: 15px;
+            height: 15px;
+            margin: 2px 2px;
+            position: absolute;
+            left: 0;
+            cursor: pointer;
+            background-color: $mapBgColor;
+            border: 1px solid $mapBgColor;
+            border-radius: 50%;
+            transition: 0.3s ease-in-out;
+            transform: translateX(17px);
+          }
+      }
+    }
+  }
+
+  
+  .lang {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include pad {
+      display: none;
+    }
+    a {
+      img {
+        padding-right: 10px;
+      }
+    }
+    p {
+      font-size: 16px;
+      color: $lightPrimaryColor;
+      line-height: 23.17px;
+      padding-right: 50px;
+    }
+  }
+
+
+.navbar-toggler {
+  display: none;
+  padding-right: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  @include pad {
+    display: flex;
+    width: 12.5%;
+  }
+  @include phone {
+    // width: 26%;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  img {
+    height: 24px;
+    width: 24px;
+    color: $lightPrimaryColor;
+  }
+}
