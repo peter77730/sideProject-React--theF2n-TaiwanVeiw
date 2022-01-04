@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# 台灣旅遊網👋
+ 
+ 這是一個使用虛擬的家具品牌*WOWOROOM*，分為前台和後台系統，前台供使用者使用，後台供管理者使用。
+ 使用者可在前台完成購物體驗(加入購物車、刪除訂單、訂購等等)；
+ 管理者可在後台查看訂單紀錄與修改訂單狀態或刪除訂單等等。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://i.imgur.com/XU86R0M.png)
 
-## Available Scripts
+- 🔭 WOWOROOM家居網 [furnitureWebsite](https://peter77730.github.io/sideProject-JS--furnitureWebsite/)
+  
+ ## 網頁介紹👋
+ 
+ - 前台
 
-In the project directory, you can run:
+  - 商品瀏覽：
 
-### `npm start`
+    - 按照分類瀏覽商品、搜尋商品並加入購物車中
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - 購物車：
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - 同步顯示購物車品項、價格、數量
+    - 可以點選Xicon移除購物車商品
+    - 也可點選 + 或 - 去增加或減少商品數量
+    - 查看訂單品項、數量、金額及訂單總額
 
-### `npm test`
+  - 填寫預定資料：
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - 購物車為空，無法送出訂單
+    - 填寫資料不完全，會顯示提示訊息必須填寫完全才能送出訂單
 
-### `npm run build`
+- 後台
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - 管理員登入：
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - 每次重登進入時，必須填寫管理員登入資料
+    - 未登入會出現提示訊息表示未登入
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - 後台管理：
 
-### `npm run eject`
+    - 查看商品列表 (含搜尋、篩選功能)
+    - 新增商品
+    - 在商品列表頁直接刪除商品，調整商品庫存數量以及上下架狀態
+    - 進入詳細頁面進一步編輯商品資料
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - 訂單管理：
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - 查看訂單列表
+    - 查看訂單詳細資料
+    - 管理訂單狀態(可更改訂單狀態與刪除訂單)
+    - 全品項營收比重的圓餅圖觀看營收狀態
+ 
+  
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🌱 I’m currently learning **HTML SCSS JavaScript React**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 👨‍💻 All of my projects are available at [https://github.com/peter77730?tab=projects](https://github.com/peter77730?tab=projects)
 
-## Learn More
+- 📝 I regularly write articles on [https://peter0312.com/](https://peter0312.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 💬 Ask me about **JavaScript,React**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 📫 How to reach me **peter77730@gmail.com**
 
-### Code Splitting
+- ⚡ Fun fact **Persevere**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h3>Connect with me:</h3>
 
-### Analyzing the Bundle Size
+<p align="left"><a href="https://codepen.io/陳品儒" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="陳品儒" height="30" width="40" /></a>
+<a href="https://fb.com/陳品儒" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="陳品儒" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/陳品儒" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="陳品儒" height="30" width="40" /></a>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h3 align="left">Languages and Tools:</h3>
 
-### Making a Progressive Web App
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=peter77730&show_icons=true&locale=en&layout=compact" alt="peter77730" /></p>
 
-### Advanced Configuration
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=peter77730&show_icons=true&locale=en" alt="peter77730" /></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
